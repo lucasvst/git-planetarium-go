@@ -4,15 +4,10 @@ import {
   Setup,
   ListRepositories,
   GitClone,
-} from "./../../../wailsjs/go/git_manager/GitManager";
+  Repository,
+} from "./../api/GitManager";
 
-import useSettings from '../settings';
-
-interface Repository {
-  name: string;
-  last_commit_date: string;
-  branch_count: number;
-}
+import useSettings from './../settings';
 
 const GitManager: React.FC = () => {
   const [directoryPath, setDirectoryPath] = useState('');
