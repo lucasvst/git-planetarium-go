@@ -4,7 +4,7 @@ import {
   Setup,
   ListRepositories,
   GitClone,
-} from "./../../../wailsjs/go/main/App";
+} from "./../../../wailsjs/go/git_manager/GitManager";
 
 import useSettings from '../settings';
 

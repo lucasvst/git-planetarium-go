@@ -1,4 +1,4 @@
-export namespace main {
+export namespace git_manager {
 	
 	export class RepositoryInfo {
 	    name: string;
